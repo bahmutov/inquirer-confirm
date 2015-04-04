@@ -3,7 +3,7 @@
 > Simple confirm yes/no question for CLI node applications.
 > Returns a promise; built on top of inquirer
 
-[![NPM][console-log-div-icon] ][console-log-div-url]
+[![NPM][inquirer-confirm-icon]][inquirer-confirm-url]
 
 `npm install inquirer-confirm --save`
 
