@@ -1,0 +1,32 @@
+{
+  "name": "inquirer-confirm",
+  "version": "0.1.0",
+  "description": "Simple confirm yes/no question for CLI node applications, returns a promise, built on top of inquirer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bahmutov/inquirer-confirm.git"
+  },
+  "keywords": [
+    "inquirer",
+    "confirm",
+    "promise",
+    "cli",
+    "command",
+    "line",
+    "node"
+  ],
+  "author": "Gleb Bahmutov <gleb.bahmutov@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bahmutov/inquirer-confirm/issues"
+  },
+  "homepage": "https://github.com/bahmutov/inquirer-confirm",
+  "dependencies": {
+    "bluebird": "2.9.24",
+    "inquirer": "0.8.2"
+  }
+}
