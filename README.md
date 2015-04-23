@@ -30,6 +30,20 @@ sorry to hear that
 
 For full CLI prompt support see the original [inquirer](https://www.npmjs.com/package/inquirer)
 
+### Passing extra info
+
+If you need to pass through an additional argument, you can. Same argument is
+passed to both resolve and reject paths.
+
+```js
+confirm('are you ok?', 'really')
+  .then(function confirmed(a) {
+    console.log(a); // prints "really"
+  }, function cancelled(b) {
+    console.log(b);  // prints "really"
+  });
+```
+
 Related: [confirm-click](https://github.com/bahmutov/confirm-click)
 
 ### Small print
