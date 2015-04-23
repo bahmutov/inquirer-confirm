@@ -1,7 +1,7 @@
 var ask = require('inquirer');
 var Promise = require('bluebird');
 
-module.exports = function confirm(question) {
+module.exports = function confirm(question, extra) {
   question = question || 'Are you sure?';
 
   return new Promise(function (resolve, reject) {
@@ -12,9 +12,9 @@ module.exports = function confirm(question) {
       message: question
     }, function (answers) {
       if (answers.confirm) {
-        return resolve();
+        return resolve(extra);
       } else {
-        return reject();
+        return reject(extra);
       }
     });
 

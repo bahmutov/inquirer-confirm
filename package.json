@@ -1,6 +1,6 @@
 {
   "name": "inquirer-confirm",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "Simple confirm yes/no question for CLI node applications, returns a promise, built on top of inquirer",
   "main": "index.js",
   "scripts": {
