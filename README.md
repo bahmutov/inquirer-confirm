@@ -5,6 +5,10 @@
 
 [![NPM][inquirer-confirm-icon]][inquirer-confirm-url]
 
+[![Build status][ci-image]][ci-url]
+[![dependencies][dependencies-image]][dependencies-url]
+[![devdependencies][inquirer-confirm-devdependencies-image] ][inquirer-confirm-devdependencies-url]
+
 `npm install inquirer-confirm --save`
 
 ```js
@@ -88,3 +92,11 @@ OTHER DEALINGS IN THE SOFTWARE.
 
 [inquirer-confirm-icon]: https://nodei.co/npm/inquirer-confirm.png?downloads=true
 [inquirer-confirm-url]: https://npmjs.org/package/inquirer-confirm
+
+[ci-image]: https://travis-ci.org/bahmutov/inquirer-confirm.png?branch=master
+[ci-url]: https://travis-ci.org/bahmutov/inquirer-confirm
+[dependencies-image]: https://david-dm.org/bahmutov/inquirer-confirm.png
+[dependencies-url]: https://david-dm.org/bahmutov/inquirer-confirm
+[inquirer-confirm-devdependencies-image]: https://david-dm.org/bahmutov/inquirer-confirm/dev-status.png
+[inquirer-confirm-devdependencies-url]: https://david-dm.org/bahmutov/inquirer-confirm#info=devDependencies
+
