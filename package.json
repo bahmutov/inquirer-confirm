@@ -4,7 +4,7 @@
   "description": "Simple confirm yes/no question for CLI node applications, returns a promise, built on top of inquirer",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha -R spec test/spec.js"
   },
   "repository": {
     "type": "git",
@@ -28,5 +28,11 @@
   "dependencies": {
     "bluebird": "2.9.24",
     "inquirer": "0.8.2"
+  },
+  "devDependencies": {
+    "check-more-types": "1.6.0",
+    "check-types": "1.4.0",
+    "lazy-ass": "0.5.4",
+    "mocha": "2.2.4"
   }
 }
