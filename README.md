@@ -48,7 +48,8 @@ confirm('are you ok?', 'really')
   });
 ```
 
-Related: [confirm-click](https://github.com/bahmutov/confirm-click)
+Related: [confirm-click](https://github.com/bahmutov/confirm-click),
+[get-username-and-password](https://github.com/bahmutov/get-username-and-password)
 
 ### Small print
 
