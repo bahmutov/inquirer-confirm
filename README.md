@@ -8,6 +8,7 @@
 [![Build status][ci-image]][ci-url]
 [![dependencies][dependencies-image]][dependencies-url]
 [![devdependencies][inquirer-confirm-devdependencies-image] ][inquirer-confirm-devdependencies-url]
+[![renovate-app badge][renovate-badge]][renovate-app]
 
 `npm install inquirer-confirm --save`
 
@@ -100,4 +101,5 @@ OTHER DEALINGS IN THE SOFTWARE.
 [dependencies-url]: https://david-dm.org/bahmutov/inquirer-confirm
 [inquirer-confirm-devdependencies-image]: https://david-dm.org/bahmutov/inquirer-confirm/dev-status.svg
 [inquirer-confirm-devdependencies-url]: https://david-dm.org/bahmutov/inquirer-confirm#info=devDependencies
-
+[renovate-badge]: https://img.shields.io/badge/renovate-app-blue.svg
+[renovate-app]: https://renovateapp.com/
