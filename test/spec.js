@@ -1,5 +1,4 @@
-require = require('really-need');
-require('lazy-ass');
+const la = require('lazy-ass')
 var check = require('check-more-types');
 var bddStdin = require('bdd-stdin');
 var confirm = require('..');

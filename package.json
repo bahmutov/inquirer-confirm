@@ -30,12 +30,11 @@
     "inquirer": "6.2.0"
   },
   "devDependencies": {
-    "bdd-stdin": "0.1.0",
+    "bdd-stdin": "0.2.0",
     "check-more-types": "2.24.0",
     "husky": "1.1.0",
     "lazy-ass": "1.6.0",
-    "mocha": "2.2.4",
-    "really-need": "1.9.2"
+    "mocha": "5.2.0"
   },
   "husky": {
     "hooks": {
