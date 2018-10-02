@@ -26,8 +26,8 @@
   },
   "homepage": "https://github.com/bahmutov/inquirer-confirm",
   "dependencies": {
-    "bluebird": "2.9.24",
-    "inquirer": "0.8.2"
+    "bluebird": "3.5.2",
+    "inquirer": "6.2.0"
   },
   "devDependencies": {
     "bdd-stdin": "0.1.0",
