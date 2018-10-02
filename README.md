@@ -24,7 +24,7 @@ confirm('are you ok?')
 runtime
 
 ```
-$ node test.js 
+$ node test.js
 ? are you ok? Yes
 you are ok
 $ node test.js
@@ -91,13 +91,13 @@ WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
 FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
 OTHER DEALINGS IN THE SOFTWARE.
 
-[inquirer-confirm-icon]: https://nodei.co/npm/inquirer-confirm.png?downloads=true
+[inquirer-confirm-icon]: https://nodei.co/npm/inquirer-confirm.svg?downloads=true
 [inquirer-confirm-url]: https://npmjs.org/package/inquirer-confirm
 
-[ci-image]: https://travis-ci.org/bahmutov/inquirer-confirm.png?branch=master
+[ci-image]: https://travis-ci.org/bahmutov/inquirer-confirm.svg?branch=master
 [ci-url]: https://travis-ci.org/bahmutov/inquirer-confirm
-[dependencies-image]: https://david-dm.org/bahmutov/inquirer-confirm.png
+[dependencies-image]: https://david-dm.org/bahmutov/inquirer-confirm.svg
 [dependencies-url]: https://david-dm.org/bahmutov/inquirer-confirm
-[inquirer-confirm-devdependencies-image]: https://david-dm.org/bahmutov/inquirer-confirm/dev-status.png
+[inquirer-confirm-devdependencies-image]: https://david-dm.org/bahmutov/inquirer-confirm/dev-status.svg
 [inquirer-confirm-devdependencies-url]: https://david-dm.org/bahmutov/inquirer-confirm#info=devDependencies
 
