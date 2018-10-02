@@ -33,13 +33,14 @@
     "bdd-stdin": "0.1.0",
     "check-more-types": "1.6.0",
     "check-types": "1.4.0",
+    "husky": "1.1.0",
     "lazy-ass": "0.5.4",
     "mocha": "2.2.4",
-    "pre-git": "0.2.1",
-    "really-need": "1.6.3"
+    "really-need": "1.9.2"
   },
-  "pre-commit": [
-    "npm test",
-    "npm version"
-  ]
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm test && npm version"
+    }
+  }
 }
