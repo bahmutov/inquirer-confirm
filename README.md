@@ -12,6 +12,21 @@
 
 `npm install inquirer-confirm --save`
 
+## v2.x
+
+```js
+const confirm = require('inquirer-confirm')
+confirm({
+  question: 'pass extra?', // 'Are you sure?' is default
+  extra: 42, // undefined is default
+  default: false // true (yes) is default
+}).then(confirmed, cancelled)
+```
+
+Whatever is `extra` is passed to both confirmed and to cancelled callbacks.
+
+## v1.x
+
 ```js
 var confirm = require('inquirer-confirm');
 confirm('are you ok?')
