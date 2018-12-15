@@ -37,7 +37,7 @@
     "husky": "1.2.1",
     "lazy-ass": "1.6.0",
     "mocha": "5.2.0",
-    "travis-deploy-once": "5.0.10",
+    "travis-deploy-once": "5.0.11",
     "semantic-release": "15.13.0"
   },
   "husky": {
