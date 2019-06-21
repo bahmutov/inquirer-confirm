@@ -29,7 +29,7 @@
   },
   "homepage": "https://github.com/bahmutov/inquirer-confirm",
   "dependencies": {
-    "inquirer": "6.4.0"
+    "inquirer": "6.4.1"
   },
   "devDependencies": {
     "bdd-stdin": "0.2.0",
